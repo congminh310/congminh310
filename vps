@@ -1,0 +1,11 @@
+site copy plesk : /smb/web/site-copy/id/27
+
+yum makecache; yum install wget
+
+sudo su root // truy cap root
+
+sudo passwd root  //doi pass root   Congminh333#@
+
+yum -y update  //update centos
+
+sudo yum install nano -y
